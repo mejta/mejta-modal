@@ -1,5 +1,5 @@
 {
-  "name": "mejta-popup",
+  "name": "native-modal",
   "version": "1.0.0",
   "main": "dist/index.js",
   "author": "Daniel Mejta <daniel@mejta.net>",

@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Popup demo</title>
+    <title>Native modal demo</title>
   </head>
   <body>
-    <h1>Popup</h1>
+    <h1>Native modal demo</h1>
 
     <p>
-        <button data-modal="test-modal">Open popup</button>
+        <button data-modal="test-modal">Open modal</button>
     </p>
 
     <dialog id="test-modal">
@@ -18,15 +18,11 @@
 
     <script src="/dist/modal.js"></script>
     <script>
-        /*
+      window.addEventListener('load', function() {
         document.querySelector('[data-modal]').addEventListener('click', function() {
-            openModalDialog(document.getElementById(this.dataset.modal));
+          openModalDialog(document.getElementById(this.dataset.modal));
         });
-        */
-
-        document.querySelector('[data-modal]').addEventListener('click', function() {
-            openModalDialog(document.getElementById(this.dataset.modal));
-        });
+      });
     </script>
   </body>
 </html>
