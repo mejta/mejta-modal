@@ -1,4 +1,3 @@
-// document.currentScript polyfill
 if (typeof document.currentScript === 'undefined') {
     require('current-script-polyfill');
 }
