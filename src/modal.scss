@@ -2,11 +2,6 @@
 
 dialog {
     border: 1px solid rgba(0, 0, 0, 0.5);
-    display: none;
-}
-
-dialog[open] {
-    display: block;
 }
 
 dialog::backdrop,
@@ -15,7 +10,6 @@ dialog + .backdrop {
 }
 
 .dialog-close-button {
-    border: red;
     position: absolute;
     top: -1rem;
     right: -1rem;
