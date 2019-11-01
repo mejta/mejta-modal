@@ -1,4 +1,4 @@
-# JS Modal
+# JS Native Modal
 
 - Uses native implementation of `<dialog>`
 - loads polyfills when necessary
