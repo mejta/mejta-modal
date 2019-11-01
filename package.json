@@ -1,0 +1,52 @@
+{
+  "name": "mejta-popup",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Daniel Mejta <daniel@mejta.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {},
+      "cssnano": {}
+    }
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "babel": {
+    "presets": [
+      [
+        "@babel/env",
+        {
+          "useBuiltIns": "usage",
+          "corejs": 3
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "core-js": "3",
+    "current-script-polyfill": "^1.0.0",
+    "dialog-polyfill": "^0.5.0"
+  }
+}

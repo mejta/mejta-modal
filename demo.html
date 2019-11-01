@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Popup demo</title>
+  </head>
+  <body>
+    <h1>Popup</h1>
+
+    <p>
+        <button data-modal="test-modal">Open popup</button>
+    </p>
+
+    <dialog id="test-modal">
+        Test modal
+    </dialog>
+
+    <script src="/dist/modal.js"></script>
+    <script>
+        /*
+        document.querySelector('[data-modal]').addEventListener('click', function() {
+            openModalDialog(document.getElementById(this.dataset.modal));
+        });
+        */
+
+        document.querySelector('[data-modal]').addEventListener('click', function() {
+            openModalDialog(document.getElementById(this.dataset.modal));
+        });
+    </script>
+  </body>
+</html>
