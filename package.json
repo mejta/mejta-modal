@@ -11,6 +11,7 @@
     "type" : "git",
     "url" : "https://github.com/mejta/native-modal.git"
   },
+  "sideEffects": false,
   "postcss": {
     "plugins": {
       "postcss-preset-env": {},
