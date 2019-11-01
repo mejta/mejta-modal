@@ -10,6 +10,6 @@
 - copy `dist` directory to the project
 - import `dist/modal.js` into HTML document
 - create `<dialog id="someid">...</dialog>` with modal content
-- call javascript `openModalDialog(document.getElementById('someid'));` (e.g. on click on a button)
+- call `window.openModalDialog(document.getElementById('someid'));` (e.g. on click on a button)
 - to close modal call `document.getElementById('someid').close()`
 - example usage in `demo.html`
