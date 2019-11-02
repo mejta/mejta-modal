@@ -3,7 +3,7 @@ if (typeof document.currentScript === 'undefined') {
 }
 
 const currentScript = document.currentScript.src;
-__webpack_public_path__ = currentScript.substring(0, currentScript.lastIndexOf('/')) + '/';
+__webpack_public_path__ = currentScript.substring(0, currentScript.lastIndexOf('/') + 1);
 
 (function () {    
     import('./modal.scss');
